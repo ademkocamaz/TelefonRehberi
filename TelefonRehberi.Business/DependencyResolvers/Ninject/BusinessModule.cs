@@ -12,10 +12,6 @@ namespace TelefonRehberi.Business.DependencyResolvers.Ninject
         {
             Bind<ICustomerService>().To<CustomerManager>().InSingletonScope();
             Bind<ICustomerDal>().To<DapperCustomerDal>().InSingletonScope();
-
-            //Bind<IValidator<Customer>>().To<CustomerValidator>().InSingletonScope();
-
-            //Bind<DbContext>().To<EfDatabaseContext>().InSingletonScope();
         }
     }
 }
