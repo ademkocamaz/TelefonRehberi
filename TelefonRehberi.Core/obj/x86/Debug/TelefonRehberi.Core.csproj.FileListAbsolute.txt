@@ -1,0 +1,10 @@
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\bin\x86\Debug\TelefonRehberi.Core.dll.config
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\bin\x86\Debug\TelefonRehberi.Core.dll
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\bin\x86\Debug\TelefonRehberi.Core.pdb
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\bin\x86\Debug\FluentValidation.dll
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\bin\x86\Debug\FluentValidation.xml
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\obj\x86\Debug\TelefonRehberi.Core.csproj.AssemblyReference.cache
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\obj\x86\Debug\TelefonRehberi.Core.csproj.CoreCompileInputs.cache
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\obj\x86\Debug\TelefonRehberi.Core.csproj.CopyComplete
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\obj\x86\Debug\TelefonRehberi.Core.dll
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.Core\obj\x86\Debug\TelefonRehberi.Core.pdb

@@ -1,0 +1,7 @@
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.csproj.AssemblyReference.cache
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.Main.resources
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.Properties.Resources.resources
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.Main.zu.resources
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.csproj.GenerateResource.cache
+C:\Users\Adem\source\repos\TelefonRehberi\TelefonRehberi.UI\obj\Debug\TelefonRehberi.UI.csproj.CoreCompileInputs.cache
