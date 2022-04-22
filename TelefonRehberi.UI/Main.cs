@@ -31,6 +31,26 @@ namespace TelefonRehberi.UI
         private void LoadCustomers()
         {
             dataGridView_Customers.DataSource = customerService.GetAll();
+            Clear_Add();
+            Clear_Update();
+        }
+
+        private void Clear_Add()
+        {
+            textBox_Add_Title.Text = "";
+            textBox_Add_Name.Text = "";
+            textBox_Add_LastName.Text = "";
+            textBox_Add_Phone1.Text = "";
+            textBox_Add_Phone2.Text = "";
+        }
+
+        private void Clear_Update()
+        {
+            textBox_Update_Title.Text = "";
+            textBox_Update_Name.Text = "";
+            textBox_Update_LastName.Text = "";
+            textBox_Update_Phone1.Text = "";
+            textBox_Update_Phone2.Text = "";
         }
 
         private void dataGridView_Customers_CellClick(object sender, DataGridViewCellEventArgs e)

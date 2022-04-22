@@ -68,3 +68,6 @@ C:\Users\Adem\Documents\GitHub\TelefonRehberi\TelefonRehberi.UI\obj\x86\Debug\Te
 C:\Users\Adem\Documents\GitHub\TelefonRehberi\TelefonRehberi.UI\obj\x86\Debug\TelefonRehberi.UI.csproj.CopyComplete
 C:\Users\Adem\Documents\GitHub\TelefonRehberi\TelefonRehberi.UI\obj\x86\Debug\TelefonRehberi.UI.exe
 C:\Users\Adem\Documents\GitHub\TelefonRehberi\TelefonRehberi.UI\obj\x86\Debug\TelefonRehberi.UI.pdb
+C:\Users\Adem\Documents\GitHub\TelefonRehberi\Build\x86\Debug\TelefonRehberi.UI.exe.config
+C:\Users\Adem\Documents\GitHub\TelefonRehberi\Build\x86\Debug\TelefonRehberi.UI.exe
+C:\Users\Adem\Documents\GitHub\TelefonRehberi\Build\x86\Debug\TelefonRehberi.UI.pdb
