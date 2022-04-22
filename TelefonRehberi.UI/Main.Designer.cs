@@ -54,6 +54,12 @@
             this.textBox_Update_LastName = new System.Windows.Forms.TextBox();
             this.textBox_Update_Name = new System.Windows.Forms.TextBox();
             this.textBox_Update_Title = new System.Windows.Forms.TextBox();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TITLE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LASTNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PHONE1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PHONE2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Customers)).BeginInit();
             this.groupBox_Add.SuspendLayout();
             this.groupBox_Update.SuspendLayout();
@@ -61,11 +67,22 @@
             // 
             // dataGridView_Customers
             // 
+            this.dataGridView_Customers.AllowUserToResizeColumns = false;
+            this.dataGridView_Customers.AllowUserToResizeRows = false;
             this.dataGridView_Customers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView_Customers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_Customers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Customers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.TITLE,
+            this.NAME,
+            this.LASTNAME,
+            this.PHONE1,
+            this.PHONE2});
             this.dataGridView_Customers.Location = new System.Drawing.Point(12, 12);
             this.dataGridView_Customers.Name = "dataGridView_Customers";
+            this.dataGridView_Customers.RowHeadersVisible = false;
             this.dataGridView_Customers.RowHeadersWidth = 51;
             this.dataGridView_Customers.RowTemplate.Height = 24;
             this.dataGridView_Customers.Size = new System.Drawing.Size(982, 403);
@@ -304,6 +321,49 @@
             this.textBox_Update_Title.Size = new System.Drawing.Size(225, 22);
             this.textBox_Update_Title.TabIndex = 1;
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 6;
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            // 
+            // TITLE
+            // 
+            this.TITLE.DataPropertyName = "TITLE";
+            this.TITLE.HeaderText = "Ünvan";
+            this.TITLE.MinimumWidth = 6;
+            this.TITLE.Name = "TITLE";
+            // 
+            // NAME
+            // 
+            this.NAME.DataPropertyName = "NAME";
+            this.NAME.HeaderText = "Adı";
+            this.NAME.MinimumWidth = 6;
+            this.NAME.Name = "NAME";
+            // 
+            // LASTNAME
+            // 
+            this.LASTNAME.DataPropertyName = "LASTNAME";
+            this.LASTNAME.HeaderText = "Soyadı";
+            this.LASTNAME.MinimumWidth = 6;
+            this.LASTNAME.Name = "LASTNAME";
+            // 
+            // PHONE1
+            // 
+            this.PHONE1.DataPropertyName = "PHONE1";
+            this.PHONE1.HeaderText = "Telefon 1";
+            this.PHONE1.MinimumWidth = 6;
+            this.PHONE1.Name = "PHONE1";
+            // 
+            // PHONE2
+            // 
+            this.PHONE2.DataPropertyName = "PHONE2";
+            this.PHONE2.HeaderText = "Telefon 2";
+            this.PHONE2.MinimumWidth = 6;
+            this.PHONE2.Name = "PHONE2";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -353,5 +413,11 @@
         private System.Windows.Forms.TextBox textBox_Update_Name;
         private System.Windows.Forms.TextBox textBox_Update_Title;
         private System.Windows.Forms.Button button_Delete;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TITLE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LASTNAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PHONE1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PHONE2;
     }
 }
