@@ -13,6 +13,11 @@ namespace TelefonRehberi.Business.ValidationRules.FluentValidation
         public CustomerValidator()
         {
             RuleFor(c => c.Title).NotEmpty().WithMessage("Ünvan boş olamaz");
+            RuleFor(c => c.Title).MaximumLength(100);
+            RuleFor(c => c.Name).MaximumLength(50);
+            RuleFor(c => c.LastName).MaximumLength(50);
+            RuleFor(c => c.Phone1).MaximumLength(50);
+            RuleFor(c => c.Phone2).MaximumLength(50);
         }
     }
 }
