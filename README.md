@@ -5,5 +5,5 @@ Firebird Embedded kullanılarak oluşturulmuş basit bir telefon rehberi uygulam
 - Dapper
 - Ninject
 - FluentValidation
-- FirebirdSQL Embedded
+- Firebird Embedded
 - Katmanlı Yapı
